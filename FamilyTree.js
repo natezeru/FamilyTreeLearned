@@ -12,3 +12,10 @@ class Person{
         }
     }
 }
+
+let Susan = new Person('Susan Thomas', [])
+let Billy = new Person('Billy Raymond', [])
+
+let John = new Person("John Raymond", [Billy,Susan ])
+
+console.log(John.childOf());
